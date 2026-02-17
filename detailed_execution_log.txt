@@ -1,0 +1,370 @@
+[06:45:10] ===================================================
+[06:45:10] PHASE-2 DETAILED EXECUTION LOG
+[06:45:10] ===================================================
+
+[06:45:10] Execution Started At: 2026-02-16 06:45:10.933530
+
+[06:45:10] Loading ONNX model...
+[06:45:10] Model Loaded Successfully.
+[06:45:10] Model Input Name: input
+[06:45:10] Model Input Shape: ['unk__664', 224, 224, 3]
+
+[06:45:10] Dataset verified successfully.
+
+[06:45:10] Scanning dataset classes...
+
+[06:45:10] Class: Bridge
+[06:45:10] Images Found: 32
+[06:45:11] Processed 1 | File: BRG_002.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 2 | File: BRG_003.png | True: Bridge | Predicted: Open
+[06:45:11] Processed 3 | File: BRG_004.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 4 | File: BRG_030.png | True: Bridge | Predicted: Open
+[06:45:11] Processed 5 | File: BRG_032.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 6 | File: BRG_021.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 7 | File: BRG_009.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 8 | File: BRG_012.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 9 | File: BRG_027.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 10 | File: BRG_006.png | True: Bridge | Predicted: CMP Scratch
+[06:45:11] Processed 11 | File: BRG_008.png | True: Bridge | Predicted: CMP Scratch
+[06:45:11] Processed 12 | File: BRG_020.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 13 | File: BRG_017.png | True: Bridge | Predicted: Open
+[06:45:11] Processed 14 | File: BRG_028.png | True: Bridge | Predicted: Open
+[06:45:11] Processed 15 | File: BRG_023.png | True: Bridge | Predicted: Clean
+[06:45:11] Processed 16 | File: BRG_022.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 17 | File: BRG_001.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 18 | File: BRG_031.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 19 | File: BRG_025.png | True: Bridge | Predicted: CMP Scratch
+[06:45:11] Processed 20 | File: BRG_007.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 21 | File: BRG_011.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 22 | File: BRG_010.png | True: Bridge | Predicted: CMP Scratch
+[06:45:11] Processed 23 | File: BRG_029.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 24 | File: BRG_014.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 25 | File: BRG_015.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 26 | File: BRG_013.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 27 | File: BRG_024.png | True: Bridge | Predicted: CMP Scratch
+[06:45:11] Processed 28 | File: BRG_019.png | True: Bridge | Predicted: CMP Scratch
+[06:45:11] Processed 29 | File: BRG_026.png | True: Bridge | Predicted: Malformed Via
+[06:45:11] Processed 30 | File: BRG_005.png | True: Bridge | Predicted: Bridge
+[06:45:11] Processed 31 | File: BRG_018.png | True: Bridge | Predicted: Others
+[06:45:11] Processed 32 | File: BRG_016.png | True: Bridge | Predicted: Bridge
+[06:45:11] Class: CMP Scratch
+[06:45:11] Images Found: 30
+[06:45:11] Processed 33 | File: CMP_023.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 34 | File: CMP_027.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 35 | File: CMP_010.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 36 | File: CMP_011.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 37 | File: CMP_018.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 38 | File: CMP_013.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 39 | File: CMP_014.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 40 | File: CMP_029.png | True: CMP Scratch | Predicted: Clean
+[06:45:11] Processed 41 | File: CMP_008.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 42 | File: CMP_030.png | True: CMP Scratch | Predicted: Clean
+[06:45:11] Processed 43 | File: CMP_001.png | True: CMP Scratch | Predicted: Clean
+[06:45:11] Processed 44 | File: CMP_004.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 45 | File: CMP_012.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 46 | File: CMP_002.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 47 | File: CMP_007.png | True: CMP Scratch | Predicted: Open
+[06:45:11] Processed 48 | File: CMP_022.png | True: CMP Scratch | Predicted: Open
+[06:45:11] Processed 49 | File: CMP_021.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 50 | File: CMP_017.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 51 | File: CMP_015.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 52 | File: CMP_025.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 53 | File: CMP_016.png | True: CMP Scratch | Predicted: Bridge
+[06:45:11] Processed 54 | File: CMP_026.png | True: CMP Scratch | Predicted: CMP Scratch
+[06:45:11] Processed 55 | File: CMP_024.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 56 | File: CMP_006.png | True: CMP Scratch | Predicted: Others
+[06:45:11] Processed 57 | File: CMP_003.png | True: CMP Scratch | Predicted: Open
+[06:45:12] Processed 58 | File: CMP_019.png | True: CMP Scratch | Predicted: Others
+[06:45:12] Processed 59 | File: CMP_020.png | True: CMP Scratch | Predicted: Clean
+[06:45:12] Processed 60 | File: CMP_009.png | True: CMP Scratch | Predicted: Bridge
+[06:45:12] Processed 61 | File: CMP_005.png | True: CMP Scratch | Predicted: Others
+[06:45:12] Processed 62 | File: CMP_028.png | True: CMP Scratch | Predicted: Bridge
+[06:45:12] Class: Clean
+[06:45:12] Images Found: 33
+[06:45:12] Processed 63 | File: CLN_004.png | True: Clean | Predicted: Others
+[06:45:12] Processed 64 | File: CLN_028.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 65 | File: CLN_015.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 66 | File: CLN_032.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 67 | File: CLN_008.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 68 | File: CLN_024.png | True: Clean | Predicted: Bridge
+[06:45:12] Processed 69 | File: CLN_030.png | True: Clean | Predicted: Malformed Via
+[06:45:12] Processed 70 | File: CLN_019.png | True: Clean | Predicted: Others
+[06:45:12] Processed 71 | File: CLN_005.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 72 | File: CLN_002.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 73 | File: CLN_007.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 74 | File: CLN_020.png | True: Clean | Predicted: Bridge
+[06:45:12] Processed 75 | File: CLN_017.png | True: Clean | Predicted: Others
+[06:45:12] Processed 76 | File: CLN_026.png | True: Clean | Predicted: Malformed Via
+[06:45:12] Processed 77 | File: CLN_022.png | True: Clean | Predicted: Others
+[06:45:12] Processed 78 | File: CLN_014.png | True: Clean | Predicted: Others
+[06:45:12] Processed 79 | File: CLN_023.png | True: Clean | Predicted: Others
+[06:45:12] Processed 80 | File: CLN_009.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 81 | File: CLN_011.png | True: Clean | Predicted: Crack
+[06:45:12] Processed 82 | File: CLN_001.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 83 | File: CLN_003.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 84 | File: CLN_027.png | True: Clean | Predicted: Malformed Via
+[06:45:12] Processed 85 | File: CLN_010.png | True: Clean | Predicted: Others
+[06:45:12] Processed 86 | File: CLN_006.png | True: Clean | Predicted: Others
+[06:45:12] Processed 87 | File: CLN_016.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 88 | File: CLN_018.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 89 | File: CLN_012.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 90 | File: CLN_021.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 91 | File: CLN_029.png | True: Clean | Predicted: Bridge
+[06:45:12] Processed 92 | File: CLN_025.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 93 | File: CLN_033.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 94 | File: CLN_013.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Processed 95 | File: CLN_031.png | True: Clean | Predicted: CMP Scratch
+[06:45:12] Class: Crack
+[06:45:12] Images Found: 31
+[06:45:12] Processed 96 | File: CRK_029.png | True: Crack | Predicted: CMP Scratch
+[06:45:12] Processed 97 | File: CRK_021.png | True: Crack | Predicted: CMP Scratch
+[06:45:12] Processed 98 | File: CRK_008.png | True: Crack | Predicted: Crack
+[06:45:12] Processed 99 | File: CRK_004.png | True: Crack | Predicted: Others
+[06:45:12] Processed 100 | File: CRK_003.png | True: Crack | Predicted: CMP Scratch
+[06:45:12] Processed 101 | File: CRK_013.png | True: Crack | Predicted: Crack
+[06:45:12] Processed 102 | File: CRK_017.png | True: Crack | Predicted: CMP Scratch
+[06:45:12] Processed 103 | File: CRK_023.png | True: Crack | Predicted: Crack
+[06:45:12] Processed 104 | File: CRK_012.png | True: Crack | Predicted: Crack
+[06:45:12] Processed 105 | File: CRK_015.png | True: Crack | Predicted: CMP Scratch
+[06:45:12] Processed 106 | File: CRK_014.png | True: Crack | Predicted: Crack
+[06:45:12] Processed 107 | File: CRK_025.png | True: Crack | Predicted: Clean
+[06:45:13] Processed 108 | File: CRK_007.png | True: Crack | Predicted: Open
+[06:45:13] Processed 109 | File: CRK_001.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 110 | File: CRK_006.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 111 | File: CRK_019.png | True: Crack | Predicted: CMP Scratch
+[06:45:13] Processed 112 | File: CRK_027.png | True: Crack | Predicted: Others
+[06:45:13] Processed 113 | File: CRK_031.png | True: Crack | Predicted: Open
+[06:45:13] Processed 114 | File: CRK_018.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 115 | File: CRK_020.png | True: Crack | Predicted: CMP Scratch
+[06:45:13] Processed 116 | File: CRK_010.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 117 | File: CRK_016.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 118 | File: CRK_009.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 119 | File: CRK_005.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 120 | File: CRK_026.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 121 | File: CRK_030.png | True: Crack | Predicted: Crack
+[06:45:13] Processed 122 | File: CRK_028.png | True: Crack | Predicted: CMP Scratch
+[06:45:13] Processed 123 | File: CRK_024.png | True: Crack | Predicted: Others
+[06:45:13] Processed 124 | File: CRK_002.png | True: Crack | Predicted: Others
+[06:45:13] Processed 125 | File: CRK_022.png | True: Crack | Predicted: Clean
+[06:45:13] Processed 126 | File: CRK_011.png | True: Crack | Predicted: CMP Scratch
+[06:45:13] Class: LER
+[06:45:13] Images Found: 30
+[06:45:13] Processed 127 | File: LER_007.png | True: LER | Predicted: LER
+[06:45:13] Processed 128 | File: LER_025.png | True: LER | Predicted: LER
+[06:45:13] Processed 129 | File: LER_006.png | True: LER | Predicted: LER
+[06:45:13] Processed 130 | File: LER_012.png | True: LER | Predicted: LER
+[06:45:13] Processed 131 | File: LER_023.png | True: LER | Predicted: CMP Scratch
+[06:45:13] Processed 132 | File: LER_027.png | True: LER | Predicted: Open
+[06:45:13] Processed 133 | File: LER_010.png | True: LER | Predicted: CMP Scratch
+[06:45:13] Processed 134 | File: LER_004.png | True: LER | Predicted: CMP Scratch
+[06:45:13] Processed 135 | File: LER_026.png | True: LER | Predicted: CMP Scratch
+[06:45:13] Processed 136 | File: LER_002.png | True: LER | Predicted: LER
+[06:45:13] Processed 137 | File: LER_003.png | True: LER | Predicted: LER
+[06:45:13] Processed 138 | File: LER_013.png | True: LER | Predicted: LER
+[06:45:13] Processed 139 | File: LER_024.png | True: LER | Predicted: Others
+[06:45:13] Processed 140 | File: LER_021.png | True: LER | Predicted: Others
+[06:45:14] Processed 141 | File: LER_011.png | True: LER | Predicted: CMP Scratch
+[06:45:14] Processed 142 | File: LER_022.png | True: LER | Predicted: LER
+[06:45:14] Processed 143 | File: LER_028.png | True: LER | Predicted: Open
+[06:45:14] Processed 144 | File: LER_030.png | True: LER | Predicted: LER
+[06:45:14] Processed 145 | File: LER_020.png | True: LER | Predicted: Others
+[06:45:14] Processed 146 | File: LER_005.png | True: LER | Predicted: LER
+[06:45:14] Processed 147 | File: LER_008.png | True: LER | Predicted: CMP Scratch
+[06:45:14] Processed 148 | File: LER_014.png | True: LER | Predicted: Others
+[06:45:14] Processed 149 | File: LER_019.png | True: LER | Predicted: Others
+[06:45:14] Processed 150 | File: LER_015.png | True: LER | Predicted: CMP Scratch
+[06:45:14] Processed 151 | File: LER_016.png | True: LER | Predicted: CMP Scratch
+[06:45:14] Processed 152 | File: LER_029.png | True: LER | Predicted: Others
+[06:45:14] Processed 153 | File: LER_017.png | True: LER | Predicted: Others
+[06:45:14] Processed 154 | File: LER_001.png | True: LER | Predicted: Others
+[06:45:14] Processed 155 | File: LER_009.png | True: LER | Predicted: CMP Scratch
+[06:45:14] Processed 156 | File: LER_018.png | True: LER | Predicted: Others
+[06:45:14] Class: Malformed Via
+[06:45:14] Images Found: 30
+[06:45:14] Processed 157 | File: VIA_005.png | True: Malformed Via | Predicted: Others
+[06:45:14] Processed 158 | File: VIA_020.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 159 | File: VIA_012.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 160 | File: VIA_025.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 161 | File: VIA_011.png | True: Malformed Via | Predicted: Bridge
+[06:45:14] Processed 162 | File: VIA_017.png | True: Malformed Via | Predicted: LER
+[06:45:14] Processed 163 | File: VIA_015.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 164 | File: VIA_018.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 165 | File: VIA_023.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 166 | File: VIA_008.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 167 | File: VIA_028.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 168 | File: VIA_014.png | True: Malformed Via | Predicted: Others
+[06:45:14] Processed 169 | File: VIA_009.png | True: Malformed Via | Predicted: Others
+[06:45:14] Processed 170 | File: VIA_026.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 171 | File: VIA_002.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 172 | File: VIA_030.png | True: Malformed Via | Predicted: Crack
+[06:45:14] Processed 173 | File: VIA_027.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 174 | File: VIA_019.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 175 | File: VIA_022.png | True: Malformed Via | Predicted: Bridge
+[06:45:14] Processed 176 | File: VIA_016.png | True: Malformed Via | Predicted: LER
+[06:45:14] Processed 177 | File: VIA_003.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 178 | File: VIA_010.png | True: Malformed Via | Predicted: Bridge
+[06:45:14] Processed 179 | File: VIA_007.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 180 | File: VIA_004.png | True: Malformed Via | Predicted: Others
+[06:45:14] Processed 181 | File: VIA_013.png | True: Malformed Via | Predicted: Others
+[06:45:14] Processed 182 | File: VIA_021.png | True: Malformed Via | Predicted: CMP Scratch
+[06:45:14] Processed 183 | File: VIA_024.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 184 | File: VIA_029.png | True: Malformed Via | Predicted: Others
+[06:45:14] Processed 185 | File: VIA_006.png | True: Malformed Via | Predicted: Malformed Via
+[06:45:14] Processed 186 | File: VIA_001.png | True: Malformed Via | Predicted: Bridge
+[06:45:14] Class: Open
+[06:45:14] Images Found: 30
+[06:45:14] Processed 187 | File: OPN_010.png | True: Open | Predicted: Others
+[06:45:14] Processed 188 | File: OPN_029.png | True: Open | Predicted: CMP Scratch
+[06:45:14] Processed 189 | File: OPN_018.png | True: Open | Predicted: Open
+[06:45:14] Processed 190 | File: OPN_019.png | True: Open | Predicted: CMP Scratch
+[06:45:14] Processed 191 | File: OPN_013.png | True: Open | Predicted: Bridge
+[06:45:14] Processed 192 | File: OPN_007.png | True: Open | Predicted: Others
+[06:45:14] Processed 193 | File: OPN_021.png | True: Open | Predicted: Others
+[06:45:14] Processed 194 | File: OPN_020.png | True: Open | Predicted: Others
+[06:45:14] Processed 195 | File: OPN_027.png | True: Open | Predicted: Others
+[06:45:14] Processed 196 | File: OPN_002.png | True: Open | Predicted: Others
+[06:45:14] Processed 197 | File: OPN_026.png | True: Open | Predicted: Others
+[06:45:14] Processed 198 | File: OPN_005.png | True: Open | Predicted: Others
+[06:45:14] Processed 199 | File: OPN_024.png | True: Open | Predicted: Bridge
+[06:45:14] Processed 200 | File: OPN_011.png | True: Open | Predicted: Bridge
+[06:45:14] Processed 201 | File: OPN_028.png | True: Open | Predicted: Open
+[06:45:14] Processed 202 | File: OPN_016.png | True: Open | Predicted: Bridge
+[06:45:14] Processed 203 | File: OPN_001.png | True: Open | Predicted: Others
+[06:45:14] Processed 204 | File: OPN_006.png | True: Open | Predicted: Others
+[06:45:14] Processed 205 | File: OPN_017.png | True: Open | Predicted: Others
+[06:45:14] Processed 206 | File: OPN_014.png | True: Open | Predicted: Open
+[06:45:15] Processed 207 | File: OPN_004.png | True: Open | Predicted: Bridge
+[06:45:15] Processed 208 | File: OPN_012.png | True: Open | Predicted: Open
+[06:45:15] Processed 209 | File: OPN_023.png | True: Open | Predicted: Bridge
+[06:45:15] Processed 210 | File: OPN_022.png | True: Open | Predicted: Others
+[06:45:15] Processed 211 | File: OPN_009.png | True: Open | Predicted: CMP Scratch
+[06:45:15] Processed 212 | File: OPN_003.png | True: Open | Predicted: Others
+[06:45:15] Processed 213 | File: OPN_030.png | True: Open | Predicted: Others
+[06:45:15] Processed 214 | File: OPN_015.png | True: Open | Predicted: Open
+[06:45:15] Processed 215 | File: OPN_025.png | True: Open | Predicted: Bridge
+[06:45:15] Processed 216 | File: OPN_008.png | True: Open | Predicted: Bridge
+[06:45:15] Class: Others
+[06:45:15] Images Found: 50
+[06:45:15] Processed 217 | File: OTH_028.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 218 | File: OTH_033.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 219 | File: OTH_001.png | True: Others | Predicted: Open
+[06:45:15] Processed 220 | File: OTH_011.png | True: Others | Predicted: Others
+[06:45:15] Processed 221 | File: OTH_047.png | True: Others | Predicted: Others
+[06:45:15] Processed 222 | File: OTH_041.png | True: Others | Predicted: Malformed Via
+[06:45:15] Processed 223 | File: OTH_050.png | True: Others | Predicted: Others
+[06:45:15] Processed 224 | File: OTH_043.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 225 | File: OTH_048.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 226 | File: OTH_029.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 227 | File: OTH_024.png | True: Others | Predicted: Malformed Via
+[06:45:15] Processed 228 | File: OTH_008.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 229 | File: OTH_005.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 230 | File: OTH_040.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 231 | File: OTH_039.png | True: Others | Predicted: Malformed Via
+[06:45:15] Processed 232 | File: OTH_018.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 233 | File: OTH_049.png | True: Others | Predicted: Others
+[06:45:15] Processed 234 | File: OTH_013.png | True: Others | Predicted: Others
+[06:45:15] Processed 235 | File: OTH_004.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 236 | File: OTH_025.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 237 | File: OTH_012.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 238 | File: OTH_009.png | True: Others | Predicted: Others
+[06:45:15] Processed 239 | File: OTH_044.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 240 | File: OTH_027.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 241 | File: OTH_006.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 242 | File: OTH_037.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 243 | File: OTH_031.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 244 | File: OTH_020.png | True: Others | Predicted: Others
+[06:45:15] Processed 245 | File: OTH_017.png | True: Others | Predicted: Others
+[06:45:15] Processed 246 | File: OTH_035.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 247 | File: OTH_032.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 248 | File: OTH_045.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 249 | File: OTH_003.png | True: Others | Predicted: LER
+[06:45:15] Processed 250 | File: OTH_046.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 251 | File: OTH_016.png | True: Others | Predicted: Others
+[06:45:15] Processed 252 | File: OTH_010.png | True: Others | Predicted: Clean
+[06:45:15] Processed 253 | File: OTH_042.png | True: Others | Predicted: Malformed Via
+[06:45:15] Processed 254 | File: OTH_038.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 255 | File: OTH_014.png | True: Others | Predicted: Open
+[06:45:15] Processed 256 | File: OTH_030.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 257 | File: OTH_026.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 258 | File: OTH_021.png | True: Others | Predicted: Open
+[06:45:15] Processed 259 | File: OTH_034.png | True: Others | Predicted: Others
+[06:45:15] Processed 260 | File: OTH_007.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 261 | File: OTH_036.png | True: Others | Predicted: Bridge
+[06:45:15] Processed 262 | File: OTH_002.png | True: Others | Predicted: CMP Scratch
+[06:45:15] Processed 263 | File: OTH_022.png | True: Others | Predicted: Others
+[06:45:15] Processed 264 | File: OTH_019.png | True: Others | Predicted: Crack
+[06:45:15] Processed 265 | File: OTH_023.png | True: Others | Predicted: Others
+[06:45:15] Processed 266 | File: OTH_015.png | True: Others | Predicted: Bridge
+[06:45:15] Class: Particle
+[06:45:15] Images Found: 30
+[06:45:15] Processed 267 | File: PRT_019.png | True: Particle | Predicted: Others
+[06:45:15] Processed 268 | File: PRT_025.png | True: Particle | Predicted: Others
+[06:45:15] Processed 269 | File: PRT_010.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 270 | File: PRT_028.png | True: Particle | Predicted: Others
+[06:45:15] Processed 271 | File: PRT_030.png | True: Particle | Predicted: Open
+[06:45:15] Processed 272 | File: PRT_026.png | True: Particle | Predicted: Others
+[06:45:15] Processed 273 | File: PRT_022.png | True: Particle | Predicted: Others
+[06:45:15] Processed 274 | File: PRT_027.png | True: Particle | Predicted: Clean
+[06:45:15] Processed 275 | File: PRT_015.png | True: Particle | Predicted: Others
+[06:45:15] Processed 276 | File: PRT_011.png | True: Particle | Predicted: Crack
+[06:45:15] Processed 277 | File: PRT_029.png | True: Particle | Predicted: Others
+[06:45:15] Processed 278 | File: PRT_014.png | True: Particle | Predicted: Others
+[06:45:15] Processed 279 | File: PRT_004.png | True: Particle | Predicted: Others
+[06:45:15] Processed 280 | File: PRT_005.png | True: Particle | Predicted: Others
+[06:45:15] Processed 281 | File: PRT_008.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 282 | File: PRT_023.png | True: Particle | Predicted: Others
+[06:45:15] Processed 283 | File: PRT_001.png | True: Particle | Predicted: Clean
+[06:45:15] Processed 284 | File: PRT_017.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 285 | File: PRT_009.png | True: Particle | Predicted: CMP Scratch
+[06:45:15] Processed 286 | File: PRT_002.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 287 | File: PRT_003.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 288 | File: PRT_024.png | True: Particle | Predicted: Others
+[06:45:15] Processed 289 | File: PRT_016.png | True: Particle | Predicted: Others
+[06:45:15] Processed 290 | File: PRT_006.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 291 | File: PRT_020.png | True: Particle | Predicted: Bridge
+[06:45:15] Processed 292 | File: PRT_007.png | True: Particle | Predicted: Clean
+[06:45:16] Processed 293 | File: PRT_021.png | True: Particle | Predicted: Others
+[06:45:16] Processed 294 | File: PRT_013.png | True: Particle | Predicted: Others
+[06:45:16] Processed 295 | File: PRT_018.png | True: Particle | Predicted: Clean
+[06:45:16] Processed 296 | File: PRT_012.png | True: Particle | Predicted: Open
+[06:45:16] 
+===================================================
+[06:45:16] INFERENCE COMPLETED
+[06:45:16] ===================================================
+
+[06:45:16] Total Images Processed: 296
+[06:45:16] Correct Predictions: 75
+[06:45:16] Accuracy: 25.34 %
+[06:45:16] Macro Precision: 34.94 %
+[06:45:16] Macro Recall: 23.80 %
+
+[06:45:16] Classification Report:
+
+[06:45:16]                precision    recall  f1-score   support
+
+       Bridge       0.17      0.28      0.21        32
+        Clean       0.00      0.00      0.00        33
+  CMP Scratch       0.01      0.03      0.02        30
+        Crack       0.78      0.45      0.57        31
+          LER       0.77      0.33      0.47        30
+Malformed Via       0.53      0.30      0.38        30
+         Open       0.24      0.17      0.20        30
+       Others       0.30      0.34      0.32        80
+
+     accuracy                           0.25       296
+    macro avg       0.35      0.24      0.27       296
+ weighted avg       0.34      0.25      0.28       296
+
+[06:45:16] Confusion Matrix:
+
+[06:45:16] [[ 9  1  6  0  0  1  4 11]
+ [ 3  0 18  1  0  3  0  8]
+ [11  4  1  0  0  0  3 11]
+ [ 0  2  9 14  0  0  2  4]
+ [ 0  0  9  0 10  0  2  9]
+ [ 4  0  8  1  2  9  0  6]
+ [ 8  0  3  0  0  0  5 14]
+ [19  5 17  2  1  4  5 27]]
+[06:45:16] 
+Execution Finished Successfully.
+[06:45:16] Execution End Time: 2026-02-16 06:45:16.050139
